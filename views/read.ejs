@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title><%=title%></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: burlywood">
+        <div class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent" >
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                  <button class="navbar-toggler" type="button" >
+                    <span class="navbar-toggler-icon"></span>
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    
+                  </button>
+                  <a href="/signup" class="nav-link">SignUp&Login<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">More<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Cart<span class="sr-only">(current)</span></a>
+                  <!-- <nav class="navbar navbar-dark bg-dark"> -->
+                        
+                  <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
+                </nav>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <!-- <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button> -->
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="#">Elctronics <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#"> <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#">TVs&Appliances <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#"> <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#">Men<span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#"> <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#">Women<span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#"><span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#"><span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#">Baby&Kids <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#"> <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#">Home&FUrniture <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#">  <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#">Sports,Books&More <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#"> <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#">OfferZone <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#">  <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#"> Special Today<span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#"><span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link active" href="#">Discount Section<span class="sr-only">(current)</span></a>
+                          </div>
+                        </div>
+                      </nav>
+              </div>
+              <div class="card" style="max-width:500px;margin-left: 400px">
+                    <img class="card-img-top" src="<%= dress.image%>" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title"><%=dress.name%></h5>
+                      <h6 class="card-title"><%=dress.product%></h6>
+                      <p class="card-text"><%=dress.description%></p>
+                      <h5 class="card-title">feedback:</h5>
+                      <p class="card-text"><%=dress.feedback%></p>
+
+                      
+                    </div>
+                  </div>
+              
+</body>
+</html>
